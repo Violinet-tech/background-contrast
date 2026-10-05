@@ -4,6 +4,7 @@
 <title>background-contrast · VIOLINET Tech</title>
 <meta name="description" content="Default opacity and scrim values for pages and app UI over a photo or video background, built around one trap: opacities multiply, they do not add.">
 <meta property="og:title" content="background-contrast · VIOLINET Tech"><meta property="og:description" content="Default opacity and scrim values for pages and app UI over a photo or video background, built around one trap: opacities multiply, they do not add.">
+<meta property="og:image" content="https://violinet-tech.github.io/background-contrast/cover.webp"><meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
@@ -39,7 +40,7 @@ footer a{color:var(--orchid)}
 <p class="eyebrow">Agent skill</p>
 <h1>background-contrast</h1>
 <p class="lede">Make a background image or video actually readable</p>
-<div class="card"><p>Default opacity and scrim values for pages and app UI over a photo or video background, built around one trap: opacities multiply, they do not add. A reasonable panel over a reasonable scrim can still leave the artwork at 2-7% visible. Includes the arithmetic to check any stack, and how to tell a real contrast failure from a stray CSS bug painting a stuck overlay.</p></div>
+<div class="card"><img class="cover" src="cover.webp" alt="A model in a white shirt squinting at a light meter in front of a huge mural, with fogged plexiglass sheets between them." loading="lazy"><p>Default opacity and scrim values for pages and app UI over a photo or video background, built around one trap: opacities multiply, they do not add. A reasonable panel over a reasonable scrim can still leave the artwork at 2-7% visible. Includes the arithmetic to check any stack, and how to tell a real contrast failure from a stray CSS bug painting a stuck overlay.</p></div>
 <div class="trig"><b>Use when:</b> a background image reads as washed out or barely visible, text over artwork needs contrast, or panels and sidebars must read against a busy backdrop.</div>
 <h2>Install</h2>
 <div class="cmd"><span id="cmd">git clone https://github.com/Violinet-tech/background-contrast ~/.claude/skills/background-contrast</span><button type="button" onclick="navigator.clipboard.writeText(document.getElementById('cmd').textContent);this.textContent='Copied'">Copy</button></div>

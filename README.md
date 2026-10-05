@@ -1,5 +1,7 @@
 # background-contrast
 
+![background-contrast](docs/cover.webp)
+
 Agent skill: fix washed-out or unreadable text and panels over photo and video backgrounds.
 
 An agent skill from [VIOLINET Tech](https://github.com/Violinet-tech). It is a folder with a `SKILL.md`, written from a real job and the mistakes made on the way. It works in Claude Code and any harness that reads the `SKILL.md` format, and the markdown is readable as plain docs without an agent.

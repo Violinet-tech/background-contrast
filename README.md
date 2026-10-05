@@ -4,6 +4,8 @@ Agent skill: fix washed-out or unreadable text and panels over photo and video b
 
 An agent skill from [VIOLINET Tech](https://github.com/Violinet-tech). It is a folder with a `SKILL.md`, written from a real job and the mistakes made on the way. It works in Claude Code and any harness that reads the `SKILL.md` format, and the markdown is readable as plain docs without an agent.
 
+Page: https://violinet-tech.github.io/background-contrast/
+
 ## Use it when
 
 text or panels laid over a photo or video background are washed out or hard to read.
